@@ -1,0 +1,35 @@
+site_name: Extended Rukwangali Technical Register
+site_url: https://crocaan.github.io/extended_rukwangali/
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: deep purple
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+
+nav:
+  - Home: index.md
+  - Muvaru (Mathematics):
+      - Overview: muvaru/index.md
+  - Ediwomutji (Chemistry):
+      - Overview: ediwomutji/index.md
+  - Ediwonsitwe (Physics):
+      - Overview: ediwonsitwe/index.md
+  - Yokompiuta (Computing):
+      - Overview: yokompiuta/index.md
+  - Upangerera (Engineering):
+      - Overview: upangerera/index.md
+  - Ediwomwenyo (Biology):
+      - Overview: ediwomwenyo/index.md
+  - Project Registry:
+      - Contributors: vagawo.md
+      - Legal & CC BY-SA 4.0: license.md
+
+hooks:
+  - generate_web_tables.py
+

@@ -1,0 +1,6 @@
+output/
+dist/
+.DS_Store
+*.pdf
+.sass-cache/
+site/
